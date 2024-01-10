@@ -34,3 +34,5 @@ app.get("/cards", async (req,res)=>{
     })
     
 })    
+
+app.listen(3000)
