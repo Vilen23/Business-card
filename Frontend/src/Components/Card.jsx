@@ -2,7 +2,8 @@ import './Card.css'
 
 export function Card({cards}){
     return <div style={{
-        display:'flex'
+        display:'flex',
+        flexWrap:"wrap"
         
     }}>
         {cards.map((card)=>{

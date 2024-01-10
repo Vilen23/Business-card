@@ -46,6 +46,7 @@ export function CreateCard(){
                     await val.json()
                     alert("Card Added")
                 })
+                window.location.reload();
         }}>Submit</button>
 
     </div>
