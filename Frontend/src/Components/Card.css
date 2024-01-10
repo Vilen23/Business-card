@@ -1,0 +1,19 @@
+#container{
+    background-color: rgb(59 59 59);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 292.95px;    
+    box-shadow: 0 0 4px black;
+    
+    
+}
+#container:hover{
+    border:  1px solid #c3c4c9;
+    box-shadow: 0 0 3px rgb(223, 219, 219);
+}
+#buttons{
+    display: flex;
+    justify-content: space-around;
+}
